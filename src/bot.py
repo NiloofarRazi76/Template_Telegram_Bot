@@ -11,7 +11,7 @@ from src.utils.io import read_json, write_json
 
 class Bot:
 	"""
-	Telegram bot to randomly connect two strangers to talk
+	Template for telegram bot.
 	"""
 	def __init__(self):
 		self.bot = telebot.TeleBot(os.environ['BOT_TOKEN'])
